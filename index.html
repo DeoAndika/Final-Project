@@ -1,3 +1,4 @@
+<!-- web create by Deo Andika -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,194 +7,90 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar scroll</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarScroll">
-            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Link
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled">Link</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
+<main class="main" id="top">
+  <nav class="navbar bg-light ">
+    <div class="container">
+      <!-- logo -->
+      <a class="navbar-brand" href="#">
+        <img src="assets/img/logo.png" alt="Bootstrap" width="150" >
+      </a>
+      <!-- navbar -->
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class=" px-3 py-2 " aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="font-mono px-3 py-2" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="font-mono  px-3 py-2 " href="#">Experiences</a>
+        </li>
+        <li class="nav-item">
+          <a class="font-mono px-3 py-2 " href="#">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="font-bold px-3 py-2 " href="#">Skill</a>
+        </li>
+        <li class="nav-item">
+          <a class="font-bold px-3 py-2 " href="#">Interest</a>
+        </li>
+        <li class="nav-item">
+          <a class="font-bold px-3 py-2 " href="#">Award</a>
+        </li>
+      </ul>
+      <!-- navbar end -->
+    </div>
+  </nav>
+
+  <section class="py-5 bg-top container-fluid hero-body">
+
+    <div class="container ">
+      <div class="row align-items-center ">
+        <div class="col-md-5 col-lg-7 order-md-1 pt-8"><img class="img-fluid" src="assets/img/features1.png" alt="" /></div>
+        <div class="col-md-7 col-lg-5 text-center text-md-start pt-5 pt-md-9">
+          <h1 class="mb-4 display-2 fw-bold">Hai, <br class="d-block d-lg-none d-xl-block" />Saya  Deo </h1>
+          <p class="mt-3 mb-4 text-dark font-monospace">saya adalah seorang front-end yang sedang mengikuti pelatihan untuk menjadi seorang front - end di hacktiv8, melalui program kartu prakerja. </p>
+        </div>
+      </div>
+    </div>
+    <!-- end of .container-->
+
+  </section>
+  <section >
+    <section class="py-4" id="about">
+
+      <div class="container">
+        <div class="row">
+          <h1 class="display-2 text-lg-center fw-bold font-monospace text-decoration-underline ">About</h1>
+          <div class="col-12">
+            <div class="card mb-4 bg-body-content rounded">
+              <div class="row g-0 align-items-center">
+                <div class="col-md-5 col-lg-6 text-md-center"><img class="img-fluid" src="assets/img/vector.png" alt="" /></div>
+                <div class="col-md-7 col-lg-6 px-md-2 px-xl-6 text-center text-md-start">
+                  <div class="card-body px-4 py-5 p-lg-3 p-md-4">
+                    <h1 class="mb-4 fw-bold">We are a JGM Animation<br class="d-md-none d-xxl-block" /> Production</h1>
+                    <p class="card-text">The place to store various data that you can access at any<br class="d-none d-xxl-block" />time through the internet and where you can carry it. <br class="d-none d-xxl-block" />This very flexible storage area has a high level of security.<br class="d-none d-xxl-block" />To enter into your own data you must enter the password<br class="d-none d-xxl-block" />that you created when you registered in this Data <br class="d-none d-xxl-block" />Warehouse. </p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-    </nav>
+      </div>
+      <!-- end of .container-->
 
-    <table class="table table-striped">
-        <thead>
-          <tr>
-            <th scope="col">#</th>
-            <th scope="col">First</th>
-            <th scope="col">Last</th>
-            <th scope="col">Handle</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="row">1</th>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
-          </tr>
-          <tr>
-            <th scope="row">2</th>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
-          </tr>
-          <tr>
-            <th scope="row">3</th>
-            <td colspan="2">Larry the Bird</td>
-            <td>@twitter</td>
-          </tr>
-          <tr>
-            <th scope="row">1</th>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
-          </tr>
-          <tr>
-            <th scope="row">2</th>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
-          </tr>
-          <tr>
-            <th scope="row">3</th>
-            <td colspan="2">Larry the Bird</td>
-            <td>@twitter</td>
-          </tr>
-          <tr>
-            <th scope="row">1</th>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
-          </tr>
-          <tr>
-            <th scope="row">2</th>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
-          </tr>
-          <tr>
-            <th scope="row">3</th>
-            <td colspan="2">Larry the Bird</td>
-            <td>@twitter</td>
-          </tr>
-          <tr>
-            <th scope="row">1</th>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
-          </tr>
-          <tr>
-            <th scope="row">2</th>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
-          </tr>
-          <tr>
-            <th scope="row">3</th>
-            <td colspan="2">Larry the Bird</td>
-            <td>@twitter</td>
-          </tr>
-          <tr>
-            <th scope="row">1</th>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
-          </tr>
-          <tr>
-            <th scope="row">2</th>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
-          </tr>
-          <tr>
-            <th scope="row">3</th>
-            <td colspan="2">Larry the Bird</td>
-            <td>@twitter</td>
-          </tr>
-          <tr>
-            <th scope="row">1</th>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
-          </tr>
-          <tr>
-            <th scope="row">2</th>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
-          </tr>
-          <tr>
-            <th scope="row">3</th>
-            <td colspan="2">Larry the Bird</td>
-            <td>@twitter</td>
-          </tr>
-          <tr>
-            <th scope="row">1</th>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
-          </tr>
-          <tr>
-            <th scope="row">2</th>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
-          </tr>
-          <tr>
-            <th scope="row">3</th>
-            <td colspan="2">Larry the Bird</td>
-            <td>@twitter</td>
-          </tr>
-          <tr>
-            <th scope="row">1</th>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
-          </tr>
-          <tr>
-            <th scope="row">2</th>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
-          </tr>
-          <tr>
-            <th scope="row">3</th>
-            <td colspan="2">Larry the Bird</td>
-            <td>@twitter</td>
-          </tr>
-          
-        </tbody>
-      </table>
+    </section>
+  </section>
+
+  
+
+  
+</main>  
+  
+    
 
 
 
